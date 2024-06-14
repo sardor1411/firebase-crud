@@ -1,9 +1,21 @@
-# React + Vite
+# Mening Ajoyib GitHub Loyiham
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu GitHub loyihamimni kutib olishingiz uchun katta rahmat!
 
-Currently, two official plugins are available:
+Bu loyiha menimcha eng ajoyib dasturlash yo'nalishimni ko'rsatadi. Bu uning asosiy qismlari:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# firebase-crud
+## Tavsif
+
+Bu dastur loyihasi quyidagi funktsiyalarni o'z ichiga oladi:
+- **Funksiya 1:** Bu funksiya... FireBase da ishlangan
+- **Funksiya 2:** Bu funksiya... Vite Js bilan yaratilgan
+- **Funksiya 3:** Bu funksiya... Crud qilingan
+
+## O'rnatish Ishlatish
+
+Loyiha o'rnatilishi va ishga tushirilishi uchun quyidagi qadamni amalga oshiring:
+1. Qadam 1... cd yourproject
+2. Qadam 2... npm i
+3. Qadam 3... npm run dev
+
+
