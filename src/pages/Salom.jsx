@@ -84,23 +84,23 @@ function Salom() {
 
   return (
     <div>
-      <div className="flex w-[80%] m-auto justify-center">
+      <div className="flex w-[80%] m-auto justify-center mt-[50px]">
         <label>
           <span>Title:</span>
-          <input value={title} onChange={(e) => setTitle(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center" />
+          <input value={title} onChange={(e) => setTitle(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
 
         <label>
           <span>Description:</span>
-          <input value={des} onChange={(e) => setDes(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center" />
+          <input value={des} onChange={(e) => setDes(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
         <label>
           <span>Img:</span>
-          <input value={img} onChange={(e) => setImg(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center" />
+          <input value={img} onChange={(e) => setImg(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
         <div>
-          {showCreateForm && <button onClick={handleCreate} className="border border-black w-[100px] h-[25px] rounded-[25px]">Create</button>}
-          {showUpdateForm && <button onClick={handleUpdate} className="border border-black w-[100px] h-[25px] rounded-[25px]">Update</button>}
+          {showCreateForm && <button onClick={handleCreate} className="border border-black w-[100px] rounded-[25px] h-[35px]">Create</button>}
+          {showUpdateForm && <button onClick={handleUpdate} className="border border-black w-[100px] h-[35px] rounded-[25px]">Update</button>}
         </div>
       </div>
 
