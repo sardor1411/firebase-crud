@@ -91,7 +91,7 @@ function Salom() {
         </label>
 
         <label>
-          <span>Ma'lumo:</span>
+          <span>Ma'lumot:</span>
           <input value={des} onChange={(e) => setDes(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
         <label>
