@@ -86,7 +86,7 @@ function Salom() {
     <div>
       <div className="flex w-[80%] m-auto justify-center mt-[50px]">
         <label>
-          <span>Ism:</span>
+          <span>Im:</span>
           <input value={title} onChange={(e) => setTitle(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
 
