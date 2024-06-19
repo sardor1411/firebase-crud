@@ -86,16 +86,16 @@ function Salom() {
     <div>
       <div className="flex w-[80%] m-auto justify-center mt-[50px]">
         <label>
-          <span>Title:</span>
+          <span>Ism:</span>
           <input value={title} onChange={(e) => setTitle(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
 
         <label>
-          <span>Description:</span>
+          <span>Ma'lumot:</span>
           <input value={des} onChange={(e) => setDes(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
         <label>
-          <span>Img:</span>
+          <span>Rasm:</span>
           <input value={img} onChange={(e) => setImg(e.target.value)} type="text" className="border border-black mx-3 rounded-[20px] text-center h-[35px]" />
         </label>
         <div>
@@ -113,8 +113,8 @@ function Salom() {
             <div className="border border-black w-[400px]  text-center m-auto rounded-[5px] h-[450px] mt-[25px]" key={mall.id}>
               <div className="box">
                 <img className="w-[100%] h-[250px]" src={mall.img} alt="" />
-                <h3 className="mt-[5%]">Title: {mall.title}</h3>
-                <h2 className="mt-[5%] mb-[5%]">Description: {mall.descript}</h2>
+                <h3 className="mt-[5%]">Ism: {mall.title}</h3>
+                <h2 className="mt-[5%] mb-[5%]">Ma'lumot: {mall.descript}</h2>
                 <div className="flex justify-evenly">
                   <button onClick={() => handleEdit(mall.id, mall.title, mall.descript, mall.img)} className="w-[40%] border border-black bg-blue-600 text-white h-[40px] rounded-[5px]">Update</button>
                   <button onClick={() => handleDelete(mall.id)} className="w-[40%] border border-black bg-red-600 text-white h-[40px] rounded-[5px]">Delete</button>
